@@ -1,5 +1,7 @@
 package com.xiangyang.application;
 
+import com.xiangyang.model.TestUser;
+import com.xiangyang.service.TestUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,7 +20,7 @@ public class ApplicationTests {
 	@Test
 	public void contextLoads() {
 		TestUser t = new TestUser();
-		t.setName("这个是测试1");
+		t.setName("这个是测试3");
 		testUserService.save(t);
 	}
 

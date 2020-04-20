@@ -1,6 +1,6 @@
-package com.xiangyang.application;
+package com.xiangyang.service;
 
-import com.xiangyang.application.TestUser;
+import com.xiangyang.model.TestUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

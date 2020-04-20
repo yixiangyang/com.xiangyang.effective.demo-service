@@ -1,4 +1,4 @@
-package com.xiangyang.application;
+package com.xiangyang.model;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
