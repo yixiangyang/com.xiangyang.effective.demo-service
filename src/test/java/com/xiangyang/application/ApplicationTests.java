@@ -18,7 +18,7 @@ public class ApplicationTests {
 	@Test
 	public void contextLoads() {
 		TestUser t = new TestUser();
-		t.setName("这个是测试");
+		t.setName("这个是测试1");
 		testUserService.save(t);
 	}
 

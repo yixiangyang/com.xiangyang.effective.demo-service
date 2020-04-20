@@ -1,7 +1,4 @@
 server:
-<<<<<<< HEAD
-  port: 9292
-=======
   port: 9292
 spring:
   datasource:
@@ -15,4 +12,3 @@ spring:
       ddl-auto: update
 debug: true
 
->>>>>>> c6fbeae82e5a429f1adcaf8b454021e1b52e5184
