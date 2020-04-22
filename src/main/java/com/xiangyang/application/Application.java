@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 //@EnableJpaRepositories(basePackages = {"com.xiangyang.model","com.xiangyang.service"})
 //@ComponentScan(basePackages = {"com.xiangyang.model","com.xiangyang.service"})
+@ComponentScan(basePackages = {"com.xiangyang.controller"})
 @EntityScan(basePackages = {"com.xiangyang.model"})
 @EnableJpaRepositories(basePackages = {"com.xiangyang.service"})
 public class Application {
